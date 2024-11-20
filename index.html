@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Produce Page</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="project">
+      <div class="container">
+        <header class="py-5 border-b-2 border-[#eee] flex-space mb-10">
+          <img
+            src="./images/icon-menu.svg"
+            alt=""
+            class="menu w-[40px] pl-3 cursor-pointer sm:hidden"
+          />
+          <nav class="nav-bar">
+            <img
+              src="./images/icon-close.svg"
+              alt=""
+              class="close cursor-pointer absolute top-4 left-4 w-[30px] sm:hidden"
+            />
+            <a
+              class="logo mt-5 mr-0 border-b-2 pb-2 border-[#eee] cursor-pointer sm:m-5 sm:border-b-0 sm:pb-0"
+              href="#"
+            >
+              <img src="./images/logo.svg" alt="" />
+            </a>
+            <ul class="nav flex gap-[20px] *:text-lg">
+              <li>Collections</li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+          <div class="pro flex items-center gap-5">
+            <div class="cart relative cursor-pointer">
+              <div
+                class="num absolute -top-2 -right-2 bg-mainColor text-white w-fit rounded-lg px-[5px] text-[12px]"
+              ></div>
+              <img src="./images/icon-cart.svg" class="z-50" alt="" />
+              <div class="notifi"></div>
+              <div class="mineCart">
+                <h2>Cart</h2>
+                <div class="purch">
+                  <div class="purch-product"></div>
+                </div>
+              </div>
+            </div>
+            <div class="profile">
+              <img
+                src="./images/image-avatar.png"
+                class="w-[45px] cursor-pointer rounded-full border-[3px] hover:border-mainColor"
+                alt=""
+              />
+            </div>
+          </div>
+        </header>
+        <section
+          class="content flex justify-around items-center flex-col gap-10 mb-10 sm:items-stretch sm:flex-row"
+        >
+          <div class="images">
+            <div
+              class="mainImage rounded-xl max-w-[400px] overflow-hidden sm:min-w-[250px] lg:max-w-[450px]"
+            >
+              <img src="./images/image-product-1.jpg" class="src" alt="" />
+            </div>
+            <div
+              class="sideImages grid grid-cols-xsm gap-5 mt-5 lg:grid-cols-sm"
+            >
+              <div class="img1">
+                <img
+                  src="./images/image-product-1-thumbnail.jpg"
+                  class="select"
+                  alt=""
+                />
+              </div>
+              <div class="img2">
+                <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+              </div>
+              <div class="img3">
+                <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+              </div>
+              <div class="img4">
+                <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="detail max-w-[400px] mt-[5%]">
+            <div class="text">
+              <span class="text-gray-500 font-bold text-sm"
+                >SNEAKER COMPANY</span
+              >
+              <h2 class="main-title font-extrabold text-4xl my-2">
+                Fall Limited Edition Sneakers
+              </h2>
+              <p class="mt-9 mb-4 font-semibold leading-5 text-gray-400">
+                These low-profile sneakers are your perfect casual wear
+                companion. Featuring a durable rubber outer sole, they'll
+                withstand everything the weather can offer
+              </p>
+            </div>
+            <div class="priceBox">
+              <div class="price font-bold text-3xl">$<span>125</span>.00</div>
+              <span class="line-through text-gray-500 font-semibold my-2"
+                >$250.00</span
+              >
+            </div>
+            <div
+              class="productPurchersTimes w-full relative flex items-center mt-5"
+            >
+              <div
+                class="timesCont w-[150px] mr-4 flex-space bg-[#eee] py-3 px-2 rounded-lg"
+              >
+                <div class="minues">
+                  <img
+                    src="./images/icon-minus.svg"
+                    alt=""
+                    class="cursor-pointer"
+                  />
+                </div>
+                <div class="times font-bold">0</div>
+                <div class="wrong">You Should Put A Valid Number</div>
+                <div class="plus">
+                  <img
+                    src="./images/icon-plus.svg"
+                    alt=""
+                    class="cursor-pointer"
+                  />
+                </div>
+              </div>
+              <div
+                class="buyCar flex-1 bg-mainColor py-3 px-2 font-semibold text-[15px] flex items-center justify-around rounded-lg cursor-pointer hover:bg-[#ff9147]"
+              >
+                <img src="./images/icon-cart.svg" alt="" /> Add To Cart
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
