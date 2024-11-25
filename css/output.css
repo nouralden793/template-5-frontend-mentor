@@ -1082,10 +1082,14 @@ video {
   padding-right: 0.75rem;
   font-weight: 600;
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: white;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
+}
+
+.buyCar {
+  color: white;
 }
 
 .mineCart .purch-product > div button:hover {
